@@ -1,0 +1,54 @@
+.div-center {
+	margin: 0 auto;
+}
+
+#bg {
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+
+}
+
+.jumbotron {
+	background: rgb(238, 238, 238);
+    background: rgba(238, 238, 238, 0.5);
+	margin-bottom: 0px;
+}
+
+.jumbotron * {
+	color: black;
+}
+
+  #typed {
+    font-size: 30px;
+    font-family: "Brush Script MT", cursive;
+    word-wrap: break-word;
+    color: black;
+
+  }
+
+  #hiddenOverflow {
+     height: 100%;
+      width: 100%;
+        position: fixed;
+      overflow: hidden;
+      background: url('bg.jpg');
+      background-size: cover;
+}
+
+  #typedContainer {
+    height: 100%;
+    width: 100%;
+margin-right: -100px;
+    padding-right: 100px;
+
+    overflow: auto;
+  position: relative;
+  left: 50px;
+}
+
+.headerDiv {
+  background: rgba(238, 238, 238, 0.8);
+  margin-bottom: 50px;
+}
