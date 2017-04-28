@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(){
 					Typed.new('#typed', {
 						stringsElement: document.getElementById('typed-strings'),
-						typeSpeed: -5000
+						typeSpeed: 1
 					});
 					window.setInterval(function() {
 					  var elem = document.getElementById('typedContainer');
